@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-VariableFont_wght.ttf');
+}
+
+* {
+    font-family: Raleway;
+}
+
+
+.logo-card {
+    width: 268px;
+    height: 268px;
+    object-fit: contain;
+    background: radial-gradient(rgba(0, 0, 0, 0.3) 70%, rgba(0, 0, 0, 0) 70%);
+}
+
+.curso-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.curso-titulo {
+    font-weight: 900;
+    font-size: 40px;
+    background: linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    color: transparent;
+}
+
+img {
+    object-fit: fill;
+
+}
+
+figure>figcaption {
+    color: white;
+    text-align: center;
+}
+
+curso-titulo {
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 16px;
+    padding: 8px 16px
+}
+
+header {
+    background-size: cover;
+    object-position: center;
+    background-image: url('../images/image\ 2.png'), linear-gradient(#000000, rgba(49, 168, 221, 0.15), rgba(49, 168, 221, 0.15), #000000);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.divisor {
+    background: linear-gradient(#1572B7, #3BA1CD);
+    width: 100%;
+    height: 2px;
+}
+
+
+#inscrever-btn {
+    padding: 19px 91px;
+    border: 4px solid #31a8dd;
+    background: linear-gradient(#1572B7, #3BA1CD);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#inscrever-btn:hover {
+    background: rgba(59, 161, 205, 0.3);
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    color: white;
+}
